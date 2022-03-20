@@ -6,13 +6,6 @@
       </p>
     </div>
   </el-scrollbar>
-
-  <el-slider
-    v-model="value"
-    :max="max"
-    :format-tooltip="formatTooltip"
-    @input="inputSlider"
-  />
 </template>
 
 <script lang="ts" setup>
